@@ -1,0 +1,61 @@
+{
+  "computers": [
+    {
+      "id": 1,
+      "model": "Macbook Pro",
+      "year": 2015
+    },
+    {
+      "id": 2,
+      "model": "Macbook Air",
+      "year": 2023
+    },
+    {
+      "id": 3,
+      "model": "eMachine",
+      "year": 1998
+    },
+    {
+      "id": 4,
+      "model": "Gateway",
+      "year": 2003
+    },
+    {
+      "id": 5,
+      "model": "VooDoo PC",
+      "year": 2007
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Rainu",
+      "lastName": "Ittycheriah",
+      "computerId": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Emily",
+      "lastName": "Anderson",
+      "computerId": 3
+    },
+    {
+      "id": 3,
+      "firstName": "Liam",
+      "lastName": "Martinez",
+      "computerId": 4
+    },
+    {
+      "id": 4,
+      "firstName": "Sophia",
+      "lastName": "Reynolds",
+      "computerId": 5
+    },
+    {
+      "id": 5,
+      "firstName": "Jackson",
+      "lastName": "Thompson",
+      "computerId": 2
+    }
+  ]
+}
