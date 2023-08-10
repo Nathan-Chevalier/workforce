@@ -31,31 +31,54 @@
       "id": 1,
       "firstName": "Rainu",
       "lastName": "Ittycheriah",
-      "computerId": 1
+      "computerId": 1,
+      "departmentId": 1
     },
     {
       "id": 2,
       "firstName": "Emily",
       "lastName": "Anderson",
-      "computerId": 3
+      "computerId": 3,
+      "departmentId": 1
     },
     {
       "id": 3,
       "firstName": "Liam",
       "lastName": "Martinez",
-      "computerId": 4
+      "computerId": 4,
+      "departmentId": 2
     },
     {
       "id": 4,
       "firstName": "Sophia",
       "lastName": "Reynolds",
-      "computerId": 5
+      "computerId": 5,
+      "departmentId": 3
     },
     {
       "id": 5,
       "firstName": "Jackson",
       "lastName": "Thompson",
-      "computerId": 2
+      "computerId": 2,
+      "departmentId": 4
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Microdata Refinement"
+    },
+    {
+      "id": 2,
+      "name": "Disposal & Reclamation"
+    },
+    {
+      "id": 3,
+      "name": "Optics & Design"
+    },
+    {
+      "id": 4,
+      "name": "Goat Department"
     }
   ]
 }
