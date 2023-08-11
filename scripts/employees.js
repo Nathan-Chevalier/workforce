@@ -6,7 +6,7 @@ export const getEmployees = async () => {
 
   let html = `<h1> Our employees </h1>`;
   let employeeArray = employees.map((employee) => {
-    return `<div class="employee__details>
+    return `<div class="employee__details">
                     <section class="employee__name">
                         <h2>${employee.firstName} ${employee.lastName}</h2>
                     </section>
