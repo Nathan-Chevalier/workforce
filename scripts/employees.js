@@ -8,13 +8,13 @@ export const getEmployees = async () => {
                 <div class="employee">`;
   let employeeArray = employees.map((employee) => {
     return `<header class="employee__name">
-                        <h1>${employee.name}</h1>
+                        <h1>${employee.firstName} ${employee.lastName}</h1>
                     </header>
                     <section class="employee__computer">
-                        Currently using a ${employee.computer.year} ${employee.computer.name}
+                        Currently using a ${employee.computer.year} ${employee.computer.model}.
                     </section>
                     <section class="employee__department">
-                        Works in the ${employee.department.name} department
+                        Works in the ${employee.department.name} department.
                     </section>`;
   });
   html += employeeArray.join("");
